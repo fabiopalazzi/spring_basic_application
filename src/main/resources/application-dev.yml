@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: mynewpassword
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  config:
+    activate:
+      on-profile: dev
+  web:
+    resources:
+      static-locations:
+        classpath:/templates/
+server:
+    port: 8080
+
+default:
+    person:
+        name: LUCA
+        surname: BIANCHI
+        age: 23
+
+logging:
+  file:
+    name: log/backlogging.log
+  level:
+    com:
+      myapp:
+        logbacklogging: INFO
+    org:
+      springframework:
+        web: DEBUG

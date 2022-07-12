@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "default.person.age",
+    "type": "java.lang.String",
+    "description": "A description for 'default.person.age'"
+  },
+  {
+    "name": "default.person.name",
+    "type": "java.lang.String",
+    "description": "A description for 'default.person.name'"
+  },
+  {
+    "name": "default.person.surname",
+    "type": "java.lang.String",
+    "description": "A description for 'default.person.surname'"
+  },
+  {
+    "name": "spring.thymeleaf.servlet.charset",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.thymeleaf.servlet.charset'"
+  }
+]}

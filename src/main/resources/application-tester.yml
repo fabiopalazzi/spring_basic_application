@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: tester
+server:
+    port: 8081
+
+default:
+    person:
+        name: MARIO
+        surname: ROSSI
+        age: 27
